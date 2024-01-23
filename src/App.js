@@ -1,7 +1,30 @@
-import MainComponent from "./components/MainComponent/MainComponent";
+import styles from "./App.module.css";
+import UserExperience from "./components/UserExperience/UserExperience";
 
+//  font-family: "Poppins", sans-serif;
+//  font-family: "Inter", sans-serif;
 function App() {
-  return <MainComponent />;
+  const userExperience = {
+    title: "Good User Experience",
+    fontFamily: '"Poppins", sans-serif',
+    feature1: {
+      text: "Aesthetics",
+      color: "#EDC999",
+    },
+    feature2: {
+      text: "Usability",
+      color: "#F3A851",
+    },
+    feature3: {
+      text: "Functionality",
+      color: "#CD906E",
+    },
+  };
+  return (
+    <div className={styles.wrapper}>
+      <UserExperience {...userExperience} />
+    </div>
+  );
 }
 
 export default App;
