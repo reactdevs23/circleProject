@@ -42,7 +42,7 @@
 }
 .textTop {
   position: absolute;
-  font-size: 2.7em;
+  font-size: 2em;
   top: 18%;
   left: 50%;
   max-width: 40%;
@@ -51,7 +51,7 @@
 
 .textLeft {
   position: absolute;
-  font-size: 2.7em;
+  font-size: 2em;
   top: 40%;
   left: 0%;
   width: 67%;
@@ -59,7 +59,7 @@
 }
 .textRight {
   position: absolute;
-  font-size: 2.7em;
+  font-size: 2em;
   top: 40%;
   left: 0%;
   width: 100%;
@@ -67,7 +67,7 @@
 }
 .textBottom {
   position: absolute;
-  font-size: 2.7em;
+  font-size: 2em;
   top: 50%;
   left: 0;
   width: 100%;
@@ -80,7 +80,7 @@
   top: 85%;
   left: 45%;
   transform: translate(-50%, -50%);
-  word-wrap: break-word;
+
   width: 60%;
   height: 80%;
   z-index: 1;
@@ -93,4 +93,6 @@
   text-align: center;
   font-size: 2.2em;
   max-width: 55%;
+  font-weight: 700;
+  line-height: 100%;
 }

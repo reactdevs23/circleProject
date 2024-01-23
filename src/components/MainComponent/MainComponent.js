@@ -5,9 +5,18 @@ import UserExperience from "../UserExperience/UserExperience";
 const MainComponent = () => {
   const userExperience = {
     title: "Good User Experience",
-    feature1: "Usability",
-    feature2: "Functionality",
-    feature3: "Aesthetics",
+    feature1: {
+      text: "Aesthetics",
+      color: "#EDC999",
+    },
+    feature2: {
+      text: "Usability",
+      color: "#F3A851",
+    },
+    feature3: {
+      text: "Functionality",
+      color: "#CD906E",
+    },
   };
   return (
     <div className={styles.wrapper}>
