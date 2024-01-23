@@ -6,7 +6,7 @@ import UserExperience from "./components/UserExperience/UserExperience";
 function App() {
   const userExperience = {
     title: "Good User Experience",
-    fontFamily: '"Poppins", sans-serif',
+    fontFamily: "'Inter', sans-serif",
     feature1: {
       text: "Aesthetics",
       color: "#EDC999",
