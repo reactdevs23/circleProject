@@ -17,9 +17,9 @@
 }
 .bottomLeft {
   position: absolute;
-  top: 46%;
-  left: -18.5%;
-  width: 62.5%;
+  top: 46.4%;
+  left: -21.5%;
+  width: 67.2%;
   z-index: 2;
 }
 .bottomRight {
@@ -43,32 +43,25 @@
 .textTop {
   position: absolute;
   font-size: 2em;
-  top: 18%;
+  top: 20%;
   left: 50%;
   max-width: 40%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 }
 
 .textLeft {
   position: absolute;
   font-size: 2em;
-  top: 40%;
-  left: 0%;
+  top: 46%;
+  left: 3%;
   width: 67%;
   transform: translateY(-50%);
 }
-.textRight {
-  position: absolute;
-  font-size: 2em;
-  top: 40%;
-  left: 0%;
-  width: 100%;
-  transform: translateY(-50%);
-}
+
 .textBottom {
   position: absolute;
   font-size: 2em;
-  top: 50%;
+  top: 54%;
   left: 0;
   width: 100%;
 }
